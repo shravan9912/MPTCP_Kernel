@@ -1,0 +1,1 @@
+cmd_/home/mutdroco-nuc3/Downloads/ethernet/e1000e-3.8.4/src/e1000e.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/mutdroco-nuc3/Downloads/ethernet/e1000e-3.8.4/src/e1000e.ko /home/mutdroco-nuc3/Downloads/ethernet/e1000e-3.8.4/src/e1000e.o /home/mutdroco-nuc3/Downloads/ethernet/e1000e-3.8.4/src/e1000e.mod.o;  true
